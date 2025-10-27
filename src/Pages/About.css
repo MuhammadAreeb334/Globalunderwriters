@@ -1,0 +1,124 @@
+.about-section {
+  background-color: #f8fafc;
+  padding: 80px 20px;
+}
+
+.about-container {
+  max-width: 950px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 60px 50px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.3s ease;
+}
+
+.about-container:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.about-title {
+  text-align: center;
+  font-size: 2.8rem;
+  color: #003366;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about-intro {
+  text-align: center;
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 40px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.divider {
+  width: 100px;
+  height: 4px;
+  background-color: #0077cc;
+  margin: 0 auto 50px;
+  border-radius: 3px;
+}
+
+.about-section-content {
+  text-align: left;
+}
+
+.about-subtitle {
+  font-size: 1.8rem;
+  color: #004b8d;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.about-text {
+  font-size: 1.05rem;
+  color: #444;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.about-list {
+  margin: 10px 0 30px 25px;
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.about-list li {
+  margin-bottom: 8px;
+  position: relative;
+  padding-left: 10px;
+}
+
+.about-list li::marker {
+  color: #0077cc;
+}
+
+.about-contact {
+  text-align: center;
+  font-weight: 600;
+  color: #003366;
+  font-size: 1.1rem;
+  margin-top: 40px;
+}
+
+.about-contact a {
+  color: #0077cc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.about-contact a:hover {
+  color: #005fa3;
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-container {
+    padding: 40px 25px;
+  }
+
+  .about-title {
+    font-size: 2.2rem;
+  }
+
+  .about-subtitle {
+    font-size: 1.4rem;
+  }
+
+  .about-intro,
+  .about-text {
+    font-size: 1rem;
+  }
+
+  .divider {
+    width: 70px;
+    margin-bottom: 35px;
+  }
+}
