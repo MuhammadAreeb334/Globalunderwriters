@@ -32,17 +32,15 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      {/* Logo */}
+      
       <div className="nav-logo">
         <Link to="/" onClick={closeMenu}>
           <img src={logo} alt="Logo" />
         </Link>
       </div>
 
-      {/* Desktop Links */}
       <ul className="nav-links">{LinkItems}</ul>
 
-      {/* Hamburger (mobile only) */}
       {!menuOpen && (
         <button
           className="hamburger"
@@ -55,7 +53,6 @@ const Navbar = () => {
         </button>
       )}
 
-      {/* Drawer (mobile) */}
       <div
         id="mobile-drawer"
         className={`drawer ${menuOpen ? "open" : ""}`}
@@ -74,7 +71,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Overlay */}
       {menuOpen && <div className="drawer-overlay active" onClick={closeMenu} />}
     </nav>
   );

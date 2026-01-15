@@ -1,0 +1,106 @@
+.getQuote-section {
+  background-color: #f8fafc;
+  padding: 10px 10px 30px 10px;
+  text-align: center;
+}
+.getquoteheader {
+  max-width: 700px;
+  margin: 0 auto 50px;
+}
+.getquoteheader h1 {
+  color: #003366;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.getquoteheader p {
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+.quote-form-container {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  margin: 10px;
+  gap: 50px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  width: 350px;
+}
+
+.labels {
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+input:focus {
+  border-color: #0077cc;
+  box-shadow: 0 0 5px rgba(0, 119, 204, 0.3);
+  outline: none;
+}
+
+.radio-group {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.radio-group input[type="radio"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+.btn-submit button {
+  padding: 12px 30px;
+  background-color: #0077cc;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.btn-submit button:hover {
+  background-color: #005fa3;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 820px) {
+  .quote-form-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+  .input-container {
+  width: 600px;
+}
+}
+
+@media (max-width: 650px) {
+  .input-container {
+  width: 450px;
+}
+}
+@media (max-width: 500px) {
+  .input-container {
+  width: 330px;
+}
+}

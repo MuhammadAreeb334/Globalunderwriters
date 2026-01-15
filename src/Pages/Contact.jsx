@@ -13,7 +13,7 @@ const Contact = () => {
       </div>
 
       <div className="contact-grid">
-        {/* Georgia Office */}
+        
         <div className="contact-card">
           <h2>Georgia Office</h2>
           <p><strong>Address:</strong> 1825 Locke Way Drive, Suite #205, Alpharetta, GA 30004</p>
@@ -21,7 +21,6 @@ const Contact = () => {
           <p><strong>Fax:</strong> 770-242-9431</p>
         </div>
 
-        {/* Florida Office */}
         <div className="contact-card">
           <h2>Florida Office</h2>
           <p><strong>Address:</strong> 5373 N Nob Hill Road, Sunrise, FL 33351</p>
@@ -29,7 +28,6 @@ const Contact = () => {
           <p><strong>Fax:</strong> 954-735-8889</p>
         </div>
 
-        {/* Texas Office */}
         <div className="contact-card">
           <h2>Texas Office</h2>
           <p><strong>Address:</strong> 8610 N. Lamar, Suite #103, Austin, TX 78753</p>
