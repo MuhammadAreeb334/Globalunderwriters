@@ -82,6 +82,17 @@ input:focus {
   background-color: #005fa3;
   transform: translateY(-2px);
 }
+.success-message {
+  color: #16a34a;
+  margin-top: 12px;
+  font-weight: 500;
+}
+
+.error-message {
+  color: #dc2626;
+  margin-top: 12px;
+  font-weight: 500;
+}
 
 @media (max-width: 820px) {
   .quote-form-container {
@@ -90,17 +101,17 @@ input:focus {
     gap: 0;
   }
   .input-container {
-  width: 600px;
-}
+    width: 600px;
+  }
 }
 
 @media (max-width: 650px) {
   .input-container {
-  width: 450px;
-}
+    width: 450px;
+  }
 }
 @media (max-width: 500px) {
   .input-container {
-  width: 330px;
-}
+    width: 330px;
+  }
 }
