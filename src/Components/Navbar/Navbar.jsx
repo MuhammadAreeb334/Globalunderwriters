@@ -66,12 +66,12 @@ const Navbar = () => {
               onClick={closeMenu}
               aria-label="Close menu"
             />
-          </div>
+          </  div>
           <ul className="drawer-links">{LinkItems}</ul>
         </div>
       </div>
 
-      {menuOpen && <div className="drawer-overlay active" onClick={closeMenu} />}
+        {menuOpen && <div className="drawer-overlay active" onClick={closeMenu} />}
     </nav>
   );
 };
